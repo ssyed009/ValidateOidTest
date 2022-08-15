@@ -20,9 +20,7 @@ trap-type-oid-prefix:
 ```
 ### Framework
 
-The Automation Framework is built using Maven/Java/TestNG with PageObjectModel design pattern. The framework has the following package/artifact setup
-
--Src\test\java
+   -Src\test\java
 		|
 		|
 	automation.baseclass (holds the page base class and test base class)
@@ -38,37 +36,38 @@ The Automation Framework is built using Maven/Java/TestNG with PageObjectModel d
 	automation.tests
 		|
 		|
--target
--pom.xml
--testng.xml
+ -target
+ -pom.xml
+ -testng.xml
+
 
 In the current solution no UI is involved so the automation.pages is empty, however this framework can be extended to UI automation too.
 
-Pre-requisites:
+### Pre-requisites:
 
 Install Java(version 8 or beyond) and setup Java_Home environment variable
 Install Maven and setup Maven_Home environment variable
 
 
-Setup and Instructions:
+### Setup and Instructions:
 
 1.The project can be downloaded from github, Unzip and open in your favorite IDE.
 2.This is a Maven project so IDE needs Maven plugin (most of the IDE's provide this out of the box)
 3.The POM.xml included in the project has all the dependencies needed to run this project.
 4.Install TestNG plugin in the IDE.
 
-Test Data:
+### Test Data:
 
 The project comes with reference data and test data files, however the user can modify the input he wants to specify for each test case.
 
 1. The reference data is located in automation.referencedata package.(SNMPPrefix.txt and SNMPLargeFile.txt)
 2. The test data properties file is located in automation.testdata package (testData.properties)
 
-Test cases :
+**Test cases :**
 
 The Automation suite has functional test cases to validate the positive and negative tests and a performance test to get process time for large file.
 
-Functional Test Suite:
+**Functional Test Suite:**
 
 1.Verify that an OID has a valid prefix, contains one of the expected prefix.
 2.Check for a empty/blank OID
@@ -80,7 +79,7 @@ Functional Test Suite:
 8.Check for valid descendant to check if OID has valid characters and pattern after the expected prefix.
 9.Verify Exact match condition
 
-Performance Test case:
+**Performance Test case:**
 
 1.Record the runtime to process large file and log it to the report.
 
