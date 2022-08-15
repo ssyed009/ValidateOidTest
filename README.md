@@ -20,25 +20,7 @@ trap-type-oid-prefix:
 ```
 ### Framework
 
-   -Src\test\java
-		|
-		|
-	automation.baseclass (holds the page base class and test base class)
-		|
-	automation.helpers (holds the reusable functions or commonly needed functionality)
-		|
-	automation.pages (holds the page classes)
-		|
-	automation.referencedata (holds the reference data)
-		|
-	automation.testdata (holds teh test data)
-		|
-	automation.tests
-		|
-		|
- -target
- -pom.xml
- -testng.xml
+The Automation Framework is built using Maven/Java/TestNG with PageObjectModel design pattern. The framework has the following package/artifact setup:
  
  ![image](https://user-images.githubusercontent.com/111313561/184713882-bab16775-db2a-4bc6-b8c1-b123a1147662.png)
 
