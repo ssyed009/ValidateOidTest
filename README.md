@@ -22,8 +22,7 @@ trap-type-oid-prefix:
 
 The Automation Framework is built using Maven/Java/TestNG with PageObjectModel design pattern. The framework has the following package/artifact setup:
  
- ![image](https://user-images.githubusercontent.com/111313561/184713882-bab16775-db2a-4bc6-b8c1-b123a1147662.png)
-
+ ![image](https://user-images.githubusercontent.com/111313561/184714329-e34fa73c-5d37-4840-940b-de2995e16ea2.png)
 
 
 In the current solution no UI is involved so the automation.pages is empty, however this framework can be extended to UI automation too.
