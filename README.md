@@ -39,6 +39,9 @@ trap-type-oid-prefix:
  -target
  -pom.xml
  -testng.xml
+ 
+ ![image](https://user-images.githubusercontent.com/111313561/184713882-bab16775-db2a-4bc6-b8c1-b123a1147662.png)
+
 
 
 In the current solution no UI is involved so the automation.pages is empty, however this framework can be extended to UI automation too.
