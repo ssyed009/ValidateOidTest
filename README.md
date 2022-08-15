@@ -54,12 +54,12 @@ The Automation suite has functional test cases to validate the positive and nega
 **Functional Test Suite:**
 
 1.Verify that an OID has a valid prefix, contains one of the expected prefix.
-2.Check for a empty/blank OID
-3.Verify the first character starts witha '.'
-4.Check if last character is nummeric
-5.Verify the pattern matches the prefix 
-6.Check for maximum length of the OID (assuming it is no longer than 128 characters)
-7.Check for an Inavlid descendant meaning the OID matches the prefix but has invalid characters after that
+2.Check for a empty/blank OID.
+3.Verify the first character starts witha '.'.
+4.Check if last character is nummeric.
+5.Verify the pattern matches the prefix.
+6.Check for maximum length of the OID (assuming it is no longer than 128 characters).
+7.Check for an Inavlid descendant meaning the OID matches the prefix but has invalid characters after that.
 8.Check for valid descendant to check if OID has valid characters and pattern after the expected prefix.
 9.Verify Exact match condition
 
