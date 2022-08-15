@@ -83,16 +83,16 @@ The Automation suite has functional test cases to validate the positive and nega
 
 1.Record the runtime to process large file and log it to the report.
 
-Error handling:
+**Error handling:**
 
 Both Hard asserts and soft asserts are implemented in the test cases. The soft asserts to pass the test case even of failure, however the reports have a log that explain it.
 
-Reports:
+**Reports:**
 
 By default the testNG reports are saved in \\test-output\Default suite folder.
 
 
-Running the test suite:
+**Running the test suite:**
 
 The tests can be run individually or as a suite. The testng.xml in the project can be used to trigger all tests in the suite.
 To run the tests from CLI using maven , Navigate to the project folder where the pom.xml resides.
@@ -103,7 +103,7 @@ To run the test case individually follwo below steps:
 1. Open the project in the IDE, open the ValidateOidTest.java from automation.tests package
 2. Select the test, right click and select Run as TestNG test.
 
-Advanced options:(Not covered in this solution)
+**Advanced options:(Not covered in this solution)**
 
 To run this as part of CI/CD , we can cerate a runnable jar and execute it as a part of build deployment.
 
